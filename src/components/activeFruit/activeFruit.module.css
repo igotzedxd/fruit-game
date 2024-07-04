@@ -1,0 +1,88 @@
+h3 {
+  font-size: 3rem;
+  letter-spacing: 4px;
+}
+
+.fruits {
+  position: relative;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  width: 80dvw;
+  gap: 2rem;
+}
+
+.fruits h2 {
+  font-size: 2.4rem;
+}
+
+.fruit {
+  position: relative;
+  z-index: 1;
+  height: 400px;
+  object-fit: contain;
+}
+
+.fallingBanana {
+  position: absolute;
+  top: 45%;
+  width: 120px;
+  z-index: -1;
+}
+
+.fall {
+  animation: fall 1s alternate ease;
+}
+
+@keyframes fall {
+  0% {
+    top: 45%;
+  }
+  100% {
+    top: 200%;
+  }
+}
+
+.shake {
+  animation: shake 0.5s alternate ease;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(5deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/* activeFruit.module.css */
+@keyframes flyOut {
+  0% {
+    transform: translate(0, 0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(var(--random-x), var(--random-y)) scale(0.5);
+    opacity: 1;
+  }
+}
+
+.smallerFruit {
+  position: absolute;
+  width: 60px; /* Adjust size as needed */
+  height: 60px; /* Adjust size as needed */
+  object-fit: contain;
+  animation: flyOut 1.5s forwards; /* Increased duration to ensure smooth transition */
+  z-index: 0;
+}

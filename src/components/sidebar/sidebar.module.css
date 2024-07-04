@@ -1,0 +1,39 @@
+.container {
+  width: 10dvw;
+  height: 102dvh;
+  transform: translateY(-2dvh);
+  box-shadow: 2px 2px 6px rgb(94, 93, 93);
+  padding: 1rem;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+}
+
+.fruit {
+  position: relative;
+  height: 34px;
+  width: 80%;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fruit img {
+  height: 34px;
+  object-fit: contain;
+}
+
+.dash {
+  position: absolute;
+  left: 60%;
+  transform: translateX(-50%);
+}
+
+.count {
+  text-align: center;
+  min-width: 20px;
+  margin-left: auto;
+}

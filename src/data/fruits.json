@@ -1,0 +1,158 @@
+[
+  {
+    "fruit": "Fruit Salad",
+    "id": 0,
+    "type": "mix",
+    "src": "/assets/fruitsalad.png"
+  },
+  {
+    "fruit": "Strawberry",
+    "id": 1,
+    "type": "fruit",
+    "src": "/assets/strawberry.png"
+  },
+  {
+    "fruit": "Banana",
+    "id": 2,
+    "type": "fruit",
+    "src": "/assets/banana.png"
+  },
+  {
+    "fruit": "Apple",
+    "id": 3,
+    "type": "fruit",
+    "src": "/assets/apple.png"
+  },
+  {
+    "fruit": "Pear",
+    "id": 4,
+    "type": "fruit",
+    "src": "/assets/pear.png"
+  },
+  {
+    "fruit": "Mango",
+    "id": 5,
+    "type": "fruit",
+    "src": "/assets/mango.png"
+  },
+  {
+    "fruit": "Pineapple",
+    "id": 6,
+    "type": "fruit",
+    "src": "/assets/pineapple.png"
+  },
+  {
+    "fruit": "Orange",
+    "id": 7,
+    "type": "fruit",
+    "src": "/assets/orange.png"
+  },
+  {
+    "fruit": "Peach",
+    "id": 8,
+    "type": "fruit",
+    "src": "/assets/peach.png"
+  },
+  {
+    "fruit": "Plum",
+    "id": 9,
+    "type": "fruit",
+    "src": "/assets/plum.png"
+  },
+  {
+    "fruit": "Cherry",
+    "id": 10,
+    "type": "fruit",
+    "src": "/assets/cherry.png"
+  },
+  {
+    "fruit": "Grape",
+    "id": 11,
+    "type": "fruit",
+    "src": "/assets/grape.png"
+  },
+  {
+    "fruit": "Blueberry",
+    "id": 12,
+    "type": "fruit",
+    "src": "/assets/blueberry.png"
+  },
+  {
+    "fruit": "Raspberry",
+    "id": 13,
+    "type": "fruit",
+    "src": "/assets/raspberry.png"
+  },
+  {
+    "fruit": "Watermelon",
+    "id": 14,
+    "type": "fruit",
+    "src": "/assets/watermelon.png"
+  },
+  {
+    "fruit": "Papaya",
+    "id": 15,
+    "type": "fruit",
+    "src": "/assets/papaya.png"
+  },
+  {
+    "fruit": "Kiwi",
+    "id": 16,
+    "type": "fruit",
+    "src": "/assets/kiwi.png"
+  },
+  {
+    "fruit": "Pomegranate",
+    "id": 17,
+    "type": "fruit",
+    "src": "/assets/pomegranate.png"
+  },
+  {
+    "fruit": "Lemon",
+    "id": 18,
+    "type": "fruit",
+    "src": "/assets/lemon.png"
+  },
+  {
+    "fruit": "Dragonfruit",
+    "id": 19,
+    "type": "fruit",
+    "src": "/assets/dragonfruit.png"
+  },
+  {
+    "fruit": "Fig",
+    "id": 20,
+    "type": "fruit",
+    "src": "/assets/fig.png"
+  },
+  {
+    "fruit": "Broccoli",
+    "id": 21,
+    "type": "vegetable",
+    "src": "/assets/broccoli.png"
+  },
+  {
+    "fruit": "Cucumber",
+    "id": 22,
+    "type": "vegetable",
+    "src": "/assets/cucumber.png"
+  },
+  {
+    "fruit": "Celeriac",
+    "id": 23,
+    "type": "vegetable",
+    "src": "/assets/celeriac.png"
+  },
+  {
+    "fruit": "Carrot",
+    "id": 24,
+    "type": "vegetable",
+    "src": "/assets/carrot.png"
+  },
+  {
+    "fruit": "Green Pea",
+    "id": 25,
+    "type": "vegetable",
+    "src": "/assets/greenpea.png"
+  }
+]
